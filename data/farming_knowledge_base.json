@@ -1,0 +1,285 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "description": "KrishiMitra AI – RAG Knowledge Base for Smart Farming Advice",
+    "pillars": [
+      "Seasonal Crop Recommendations",
+      "Soil Condition Guides",
+      "Pest Control Measures",
+      "Regional Weather Forecasts",
+      "Daily Mandi Rates"
+    ],
+    "sources": ["Agri Dept India", "IMD (India Meteorological Department)", "e-NAM (National Agriculture Market)", "ICAR", "Krishi Vigyan Kendras"],
+    "last_updated": "2024-11-01"
+  },
+  "records": [
+
+    {
+      "id": "CR-001",
+      "pillar": "crop_recommendation",
+      "season": "kharif",
+      "season_hi": "खरीफ",
+      "title": "Kharif Season Crop Recommendations (June–October)",
+      "title_hi": "खरीफ सीजन फसल सिफारिशें (जून–अक्टूबर)",
+      "source": "ICAR – Indian Council of Agricultural Research",
+      "content": "Kharif crops are sown at the beginning of the monsoon season (June) and harvested in October–November. Best crops: Rice (paddy) in high-rainfall areas (>1200mm); Maize in loamy soils of UP, Bihar, Rajasthan; Soybean in black cotton soils of Madhya Pradesh and Maharashtra; Cotton in Telangana, Gujarat, Punjab; Groundnut in sandy loam soils of Gujarat and Andhra Pradesh; Tur (Arhar) Dal in Maharashtra and Karnataka. Key advisory: Ensure soil moisture testing before sowing. Use certified seeds from government seed corporations for 15–20% higher yield.",
+      "content_hi": "खरीफ फसलें मानसून के आगमन पर जून में बोई जाती हैं और अक्टूबर-नवंबर में काटी जाती हैं। सर्वोत्तम फसलें: अधिक वर्षा वाले क्षेत्रों में धान (>1200mm); उत्तर प्रदेश, बिहार, राजस्थान की दोमट मिट्टी में मक्का; मध्यप्रदेश और महाराष्ट्र की काली कपास मिट्टी में सोयाबीन; तेलंगाना, गुजरात, पंजाब में कपास; गुजरात और आंध्रप्रदेश की बलुई दोमट मिट्टी में मूंगफली।",
+      "keywords": ["crop", "kharif", "season", "rice", "paddy", "maize", "soybean", "cotton", "monsoon", "sowing", "kheti", "fasal", "फसल", "खरीफ", "बुवाई"],
+      "tags": ["crop_recommendation", "kharif", "seasonal"]
+    },
+    {
+      "id": "CR-002",
+      "pillar": "crop_recommendation",
+      "season": "rabi",
+      "season_hi": "रबी",
+      "title": "Rabi Season Crop Recommendations (October–March)",
+      "title_hi": "रबी सीजन फसल सिफारिशें (अक्टूबर–मार्च)",
+      "source": "ICAR – Indian Council of Agricultural Research",
+      "content": "Rabi crops are sown in October–November (post-monsoon) and harvested in March–April. Best crops: Wheat in Punjab, Haryana, UP, and Rajasthan – ideal temperature 10–25°C; Mustard (Sarson) in Rajasthan, UP, Haryana – requires well-drained sandy loam soil; Chickpea (Chana) in MP, Rajasthan, Andhra Pradesh; Barley in dry and semi-arid regions; Peas and Lentils (Masoor) in northern plains. Key advisory: Apply diammonium phosphate (DAP) at sowing. Irrigate wheat 6 times at critical growth stages (CRI, tillering, jointing, booting, heading, and grain-fill).",
+      "content_hi": "रबी फसलें अक्टूबर-नवंबर में बोई जाती हैं और मार्च-अप्रैल में काटी जाती हैं। सर्वोत्तम फसलें: पंजाब, हरियाणा, उत्तर प्रदेश, राजस्थान में गेहूं – आदर्श तापमान 10-25°C; राजस्थान, उत्तर प्रदेश, हरियाणा में सरसों; मध्यप्रदेश, राजस्थान, आंध्रप्रदेश में चना; शुष्क और अर्ध-शुष्क क्षेत्रों में जौ। मुख्य सलाह: बुवाई पर डीएपी डालें।",
+      "keywords": ["crop", "rabi", "wheat", "mustard", "chickpea", "barley", "season", "sowing", "gahun", "sarson", "chana", "गेहूं", "सरसों", "रबी", "चना"],
+      "tags": ["crop_recommendation", "rabi", "seasonal"]
+    },
+    {
+      "id": "CR-003",
+      "pillar": "crop_recommendation",
+      "season": "zaid",
+      "season_hi": "जायद",
+      "title": "Zaid Season Crop Recommendations (March–June)",
+      "title_hi": "जायद सीजन फसल सिफारिशें (मार्च–जून)",
+      "source": "ICAR – Indian Council of Agricultural Research",
+      "content": "Zaid crops are short-duration crops grown between Rabi and Kharif seasons (March–June). Best crops: Watermelon and Muskmelon in sandy river-bed soils; Cucumber, Bottle Gourd, Bitter Gourd in warm regions; Moong Dal (Green Gram) in UP, Punjab – matures in 60–65 days; Sunflower across multiple states. Key advisory: Requires adequate irrigation. Heat-tolerant varieties should be chosen. Zaid crops fetch good market prices due to limited supply in summer months.",
+      "content_hi": "जायद फसलें रबी और खरीफ के बीच की कम अवधि वाली फसलें हैं। सर्वोत्तम फसलें: बलुई नदी-तट की मिट्टी में तरबूज और खरबूज; गर्म क्षेत्रों में खीरा, लौकी, करेला; उत्तर प्रदेश, पंजाब में मूंग दाल – 60-65 दिन में पकती है; कई राज्यों में सूरजमुखी। मुख्य सलाह: पर्याप्त सिंचाई की आवश्यकता है।",
+      "keywords": ["crop", "zaid", "watermelon", "cucumber", "moong", "summer", "season", "जायद", "तरबूज", "मूंग"],
+      "tags": ["crop_recommendation", "zaid", "seasonal"]
+    },
+    {
+      "id": "CR-004",
+      "pillar": "crop_recommendation",
+      "season": "general",
+      "title": "Best Crop for Current Season – General Advisory",
+      "title_hi": "इस मौसम की सर्वोत्तम फसल – सामान्य सलाह",
+      "source": "Krishi Vigyan Kendra (KVK) – National Advisory",
+      "content": "Selecting the best crop depends on: (1) Season – Kharif (June–Oct): Paddy, Maize, Cotton; Rabi (Oct–Mar): Wheat, Mustard, Gram; Zaid (Mar–Jun): Watermelon, Moong. (2) Soil type – Sandy: Groundnut, Pearl Millet; Loamy: Wheat, Sugarcane; Clay: Paddy, Jute. (3) Water availability – Low water: Millets (Bajra, Jowar); Moderate: Wheat, Maize; High: Paddy, Sugarcane. (4) Market demand – Vegetables and horticulture crops often yield 3–5x more income per acre than traditional cereals. Current recommendation: If monsoon is active, Paddy or Cotton are best bets; If post-monsoon dry period, sow Mustard or Wheat.",
+      "content_hi": "सर्वोत्तम फसल का चुनाव इन पर निर्भर करता है: (1) मौसम – खरीफ: धान, मक्का, कपास; रबी: गेहूं, सरसों, चना; जायद: तरबूज, मूंग। (2) मिट्टी का प्रकार – बालुई: मूंगफली, बाजरा; दोमट: गेहूं, गन्ना; चिकनी: धान, जूट। वर्तमान सिफारिश: यदि मानसून सक्रिय है, धान या कपास सबसे अच्छा विकल्प है; मानसून के बाद शुष्क अवधि में सरसों या गेहूं बोएं।",
+      "keywords": ["best crop", "season", "which crop", "crop recommendation", "kharif", "rabi", "fasal", "कौन सी फसल", "इस मौसम", "best", "suitable"],
+      "tags": ["crop_recommendation", "general", "best_crop"]
+    },
+
+    {
+      "id": "SC-001",
+      "pillar": "soil_condition",
+      "title": "Alluvial Soil (Domat Mitti) – Crop Suitability & Fertility Guide",
+      "title_hi": "जलोढ़ मिट्टी (दोमट मिट्टी) – फसल उपयुक्तता और उर्वरता मार्गदर्शिका",
+      "source": "ICAR – Soil Science Division / National Bureau of Soil Survey",
+      "content": "Alluvial soils cover ~40% of India's total geographical area and are the most fertile. Found in Indo-Gangetic Plains (UP, Bihar, Punjab, Haryana). Characteristics: pH 6.5–7.5, well-drained, medium water-holding capacity. Best crops: Wheat, Rice, Sugarcane, Maize, Pulses. Nutrient management: Deficient in Nitrogen – apply Urea 120 kg/ha; Adequate Phosphorus. Organic matter enhancement: Apply FYM (Farm Yard Manure) 10 tonnes/ha before sowing. Sowing recommendation for current season: Test soil NPK before fertilizer application using a soil test kit (available at KVK centres free of charge).",
+      "content_hi": "जलोढ़ मिट्टी भारत के कुल भौगोलिक क्षेत्र के ~40% को कवर करती है और सबसे उपजाऊ है। इंडो-गंगेटिक मैदानों में पाई जाती है। विशेषताएं: pH 6.5-7.5, अच्छी जल निकासी। सर्वोत्तम फसलें: गेहूं, चावल, गन्ना, मक्का, दालें। पोषक तत्व प्रबंधन: नाइट्रोजन की कमी – यूरिया 120 किग्रा/हेक्टेयर डालें।",
+      "keywords": ["soil", "alluvial", "loamy", "domat", "mitti", "fertility", "NPK", "fertilizer", "मिट्टी", "दोमट", "उर्वरता", "खेत"],
+      "tags": ["soil_condition", "alluvial", "north_india"]
+    },
+    {
+      "id": "SC-002",
+      "pillar": "soil_condition",
+      "title": "Black Cotton Soil (Regur) – Crop Suitability & Water Management",
+      "title_hi": "काली कपास मिट्टी (रेगुर) – फसल उपयुक्तता और जल प्रबंधन",
+      "source": "ICAR – Soil Science Division",
+      "content": "Black cotton soils (Regur) are found in Deccan Plateau regions: Maharashtra, MP, Gujarat, Telangana. Characteristics: High clay content (50–60%), pH 7.5–8.5, high water-retention, sticky when wet and cracks when dry. Best crops: Cotton (primary), Soybean, Jowar (Sorghum), Wheat in Vidarbha region. Challenges: Waterlogging risk – avoid over-irrigation; Crack irrigation needed in dry spells. Nutrient management: Phosphorus-deficient – apply SSP (Single Super Phosphate) 250 kg/ha; Apply Zinc Sulphate 25 kg/ha for zinc deficiency correction. Advisory: Deep tillage recommended before Kharif sowing to break sub-soil compaction.",
+      "content_hi": "काली कपास मिट्टी दक्कन पठार क्षेत्रों में पाई जाती है: महाराष्ट्र, मध्यप्रदेश, गुजरात, तेलंगाना। विशेषताएं: उच्च मिट्टी सामग्री (50-60%), pH 7.5-8.5, उच्च जल-धारण क्षमता। सर्वोत्तम फसलें: कपास (प्राथमिक), सोयाबीन, ज्वार।",
+      "keywords": ["soil", "black", "cotton", "regur", "deccan", "clay", "pH", "mitti", "काली मिट्टी", "मिट्टी परीक्षण"],
+      "tags": ["soil_condition", "black_cotton", "deccan"]
+    },
+    {
+      "id": "SC-003",
+      "pillar": "soil_condition",
+      "title": "Sandy Soil (Baluyi Mitti) – Dryland Farming Advisory",
+      "title_hi": "बलुई मिट्टी – शुष्क भूमि खेती सलाह",
+      "source": "Central Arid Zone Research Institute (CAZRI), Jodhpur",
+      "content": "Sandy soils are prevalent in Rajasthan, Haryana, and Gujarat. Characteristics: pH 6.0–7.5, low water-holding capacity, fast drainage, poor nutrient retention. Best crops: Bajra (Pearl Millet) – most drought-tolerant; Clusterbean (Guar) – good nitrogen-fixing crop; Groundnut in Gujarat; Moth Bean. Water management: Drip irrigation recommended to reduce water use by 40–60%. Nutrient management: Apply organic matter (compost) heavily – 15 tonnes/ha; Frequent light irrigation preferred over heavy doses. Advisory: Adopt conservation tillage and mulching to reduce evaporation. Government scheme: PM Krishi Sinchai Yojana provides drip/sprinkler subsidy up to 55% for small farmers.",
+      "content_hi": "बलुई मिट्टी राजस्थान, हरियाणा और गुजरात में प्रचलित है। सर्वोत्तम फसलें: बाजरा (सबसे अधिक सूखा-सहिष्णु); ग्वार – अच्छी नाइट्रोजन-फिक्सिंग फसल; गुजरात में मूंगफली। जल प्रबंधन: ड्रिप सिंचाई से पानी का उपयोग 40-60% कम होता है।",
+      "keywords": ["soil", "sandy", "dryland", "rajasthan", "bajra", "mitti", "मिट्टी", "बलुई", "सिंचाई", "soil advice", "weather", "sowing"],
+      "tags": ["soil_condition", "sandy", "dryland"]
+    },
+    {
+      "id": "SC-004",
+      "pillar": "soil_condition",
+      "title": "Soil Testing & pH Correction – Practical Guide for Farmers",
+      "title_hi": "मिट्टी परीक्षण और pH सुधार – किसानों के लिए व्यावहारिक मार्गदर्शिका",
+      "source": "Soil Health Mission – Ministry of Agriculture & Farmers Welfare",
+      "content": "Soil testing is the foundation of smart farming. The Government's Soil Health Card Scheme provides free soil testing. Steps: (1) Collect soil sample from 6-inch depth at 5 random spots in the field and mix; (2) Send to nearest Krishi Vigyan Kendra or Soil Testing Lab; (3) Test for NPK, pH, Organic Carbon, Micronutrients. pH Correction: Acidic soils (pH < 6): Apply Agricultural Lime (Chuna) 2–4 tonnes/ha; Alkaline soils (pH > 8): Apply Gypsum (Jips) 500–1000 kg/ha or apply Sulphur. Best sowing conditions: pH 6.0–7.5 for most crops. Advisory: Always apply fertilizers based on soil test report, not on assumption – this saves 25–30% fertilizer cost.",
+      "content_hi": "मिट्टी परीक्षण स्मार्ट खेती की नींव है। सरकार की मृदा स्वास्थ्य कार्ड योजना मुफ्त मिट्टी परीक्षण प्रदान करती है। पीएच सुधार: अम्लीय मिट्टी (pH < 6): कृषि चूना 2-4 टन/हेक्टेयर; क्षारीय मिट्टी (pH > 8): जिप्सम 500-1000 किग्रा/हेक्टेयर।",
+      "keywords": ["soil test", "pH", "soil health", "NPK", "fertilizer", "lime", "gypsum", "मिट्टी परीक्षण", "soil", "weather", "sowing advice"],
+      "tags": ["soil_condition", "soil_testing", "pH_correction"]
+    },
+
+    {
+      "id": "PC-001",
+      "pillar": "pest_control",
+      "crop": "tomato",
+      "title": "Tomato Pest & Disease Management",
+      "title_hi": "टमाटर कीट और रोग प्रबंधन",
+      "source": "ICAR – National Research Centre for Tomato",
+      "content": "Major tomato pests and controls: (1) Tomato Fruit Borer (Helicoverpa armigera): Most destructive pest. Use pheromone traps (5/acre); spray Emamectin Benzoate 5% SG @ 0.4 g/litre or Spinosad 45% SC @ 0.3 ml/litre. (2) Whitefly (causes Tomato Leaf Curl Virus): Spray Imidacloprid 17.8% SL @ 0.5 ml/litre. Use reflective silver mulch to repel whitefly. (3) Early Blight (Alternaria solani): Spray Mancozeb 75% WP @ 2.0 g/litre. (4) Late Blight (Phytophthora infestans): Spray Metalaxyl + Mancozeb @ 2.5 g/litre. IPM strategy: Use disease-resistant varieties (Arka Rakshak, Punjab Chhuhara). Neem oil spray 5 ml/litre acts as a broad-spectrum organic pesticide.",
+      "content_hi": "टमाटर के प्रमुख कीट और नियंत्रण: (1) टमाटर फल छेदक: फेरोमोन ट्रैप (5/एकड़) का उपयोग करें; एमामेक्टिन बेंजोएट 0.4 ग्राम/लीटर का छिड़काव करें। (2) सफेद मक्खी: इमिडाक्लोप्रिड 0.5 ml/लीटर का छिड़काव करें। (3) अर्ली ब्लाइट: मैन्कोजेब 2.0 ग्राम/लीटर का छिड़काव करें। जैविक विकल्प: नीम तेल 5 मिली/लीटर।",
+      "keywords": ["pest", "tomato", "borer", "blight", "whitefly", "pesticide", "spray", "control", "टमाटर", "कीट", "रोग", "नाशकजीव"],
+      "tags": ["pest_control", "tomato", "disease_management"]
+    },
+    {
+      "id": "PC-002",
+      "pillar": "pest_control",
+      "crop": "wheat",
+      "title": "Wheat Pest & Disease Management",
+      "title_hi": "गेहूं कीट और रोग प्रबंधन",
+      "source": "ICAR – Directorate of Wheat and Barley Research, Karnal",
+      "content": "Major wheat pests and diseases: (1) Yellow Rust (Puccinia striiformis): Most serious disease. Spray Propiconazole 25% EC @ 0.1% (1 ml/litre) at first appearance. Use resistant varieties (HD 2967, WH 1105). (2) Aphids (Wheat Aphid): Spray Dimethoate 30% EC @ 1.5 ml/litre or Thiamethoxam 25% WG @ 0.3 g/litre. Economic threshold: 50 aphids/tiller. (3) Termites: Treat seed with Chlorpyrifos 20% EC @ 350 ml/100 kg seed before sowing. (4) Loose Smut (Ustilago tritici): Treat seed with Carboxin 37.5% + Thiram 37.5% @ 3 g/kg seed. Advisory: Timely sowing (15 Oct – 15 Nov) reduces disease incidence by 60%. Avoid excess nitrogen which promotes aphid population.",
+      "content_hi": "गेहूं के प्रमुख कीट और रोग: (1) पीली रस्ट: प्रोपिकोनाजोल 1 मिली/लीटर का छिड़काव करें। प्रतिरोधी किस्मों का उपयोग करें। (2) माहू (एफिड): डाइमेथोएट 1.5 मिली/लीटर का छिड़काव करें। (3) दीमक: बुवाई से पहले क्लोरपायरीफोस से बीज उपचार करें।",
+      "keywords": ["pest", "wheat", "rust", "aphid", "termite", "disease", "spray", "गेहूं", "कीट", "रस्ट", "माहू", "दीमक"],
+      "tags": ["pest_control", "wheat", "disease_management"]
+    },
+    {
+      "id": "PC-003",
+      "pillar": "pest_control",
+      "crop": "rice",
+      "title": "Paddy (Rice) Pest & Disease Management",
+      "title_hi": "धान (चावल) कीट और रोग प्रबंधन",
+      "source": "ICAR – Directorate of Rice Research, Hyderabad",
+      "content": "Major paddy pests: (1) Brown Plant Hopper (BPH): Drain water for 3–5 days; spray Buprofezin 25% SC @ 2 ml/litre. Never use synthetic pyrethroids – causes BPH resurgence. (2) Stem Borer (Chilo suppressalis): Use pheromone traps (10/ha); spray Cartap Hydrochloride 50% SP @ 1 g/litre at 50% egg-hatch. (3) Blast Disease (Pyricularia oryzae): Spray Tricyclazole 75% WP @ 0.6 g/litre at 50% heading stage. (4) Bacterial Leaf Blight (BLB): Drain water, spray Copper Oxychloride 50% WP @ 3 g/litre. Organic IPM: Maintain field hygiene, remove weeds, use Trichoderma viride bio-fungicide.",
+      "content_hi": "धान के प्रमुख कीट: (1) भूरा फुदका: पानी निकालें, बुप्रोफेजिन 2 मिली/लीटर का छिड़काव करें। (2) तना छेदक: फेरोमोन ट्रैप का उपयोग करें। (3) झोंका रोग: ट्राइसाइक्लाजोल 0.6 ग्राम/लीटर का छिड़काव करें।",
+      "keywords": ["pest", "paddy", "rice", "blast", "blight", "stem borer", "BPH", "धान", "कीट", "रोग"],
+      "tags": ["pest_control", "paddy", "rice"]
+    },
+    {
+      "id": "PC-004",
+      "pillar": "pest_control",
+      "crop": "general",
+      "title": "Organic & Integrated Pest Management (IPM) for Small Farmers",
+      "title_hi": "छोटे किसानों के लिए जैविक और एकीकृत कीट प्रबंधन (IPM)",
+      "source": "National IPM Programme – Ministry of Agriculture & Farmers Welfare",
+      "content": "Integrated Pest Management (IPM) principles for cost-effective pest control: (1) Cultural Control: Crop rotation breaks pest cycles; deep summer ploughing kills soil-borne pests; balanced fertilization prevents excess vegetative growth that attracts pests. (2) Biological Control: Trichogramma cards (egg-parasitoid wasp) – release 50,000/ha for bollworm control; Beauveria bassiana (entomopathogenic fungus) @ 5 g/litre for whitefly/thrips. (3) Mechanical Control: Yellow sticky traps for whitefly and aphids; Blue sticky traps for thrips; Light traps for moth pests. (4) Chemical Control (Last Resort): Use selective insecticides with low environmental impact; follow pre-harvest intervals (PHI); wear PPE during spraying. Government support: KVK provides free IPM training and Trichogramma cards.",
+      "content_hi": "एकीकृत कीट प्रबंधन (IPM) सिद्धांत: (1) सांस्कृतिक नियंत्रण: फसल चक्र, गहरी गर्मियों में जुताई। (2) जैविक नियंत्रण: ट्राइकोग्रामा कार्ड 50,000/हेक्टेयर; बीवेरिया बेसियाना 5 ग्राम/लीटर। (3) यांत्रिक नियंत्रण: पीली चिपचिपी जाल, नीली चिपचिपी जाल, प्रकाश जाल। (4) रासायनिक नियंत्रण: केवल अंतिम उपाय के रूप में।",
+      "keywords": ["pest control", "IPM", "organic", "biological", "Trichogramma", "नीम", "कीट नियंत्रण", "जैविक", "pest", "control"],
+      "tags": ["pest_control", "IPM", "organic", "general"]
+    },
+
+    {
+      "id": "WF-001",
+      "pillar": "weather_forecast",
+      "region": "north_india",
+      "title": "North India Weather Forecast & Farming Advisory (Punjab, Haryana, UP, Delhi)",
+      "title_hi": "उत्तर भारत मौसम पूर्वानुमान और कृषि सलाह (पंजाब, हरियाणा, उत्तर प्रदेश, दिल्ली)",
+      "source": "IMD (India Meteorological Department) – Regional Centre, New Delhi",
+      "content": "North India Weather Outlook (October–March): Temperature: Day 15–28°C, Night 5–15°C. Rainfall: Below-normal during Rabi season (Oct–Feb). Western Disturbances bring light to moderate rain/snowfall in hilly areas (Jan–Feb). Humidity: 40–70%. Farming Advisory: (1) Sow wheat in the first fortnight of November when soil temperature is 20–22°C. (2) Protect Mustard from frost damage in December–January – use smoke screens or sprinkle water in early morning. (3) Monitor fog advisories – dense fog in Jan–Feb reduces sunlight; irrigate crops to minimize frost-stress. (4) Kharif harvest (Oct): Ensure paddy is harvested before rain spells. Warning: Hailstorm risk in March – protect standing wheat crop with hail nets or crop insurance (PM Fasal Bima Yojana).",
+      "content_hi": "उत्तर भारत मौसम पूर्वानुमान (अक्टूबर-मार्च): तापमान: दिन 15-28°C, रात 5-15°C। कृषि सलाह: (1) नवंबर के पहले पखवाड़े में गेहूं बोएं। (2) दिसंबर-जनवरी में सरसों को पाले से बचाएं। (3) जनवरी-फरवरी में घने कोहरे की निगरानी करें। चेतावनी: मार्च में ओलावृष्टि का जोखिम।",
+      "keywords": ["weather", "forecast", "north india", "punjab", "haryana", "UP", "fog", "frost", "rain", "मौसम", "पूर्वानुमान", "उत्तर भारत", "बारिश"],
+      "tags": ["weather_forecast", "north_india", "rabi_season"]
+    },
+    {
+      "id": "WF-002",
+      "pillar": "weather_forecast",
+      "region": "central_india",
+      "title": "Central India Weather Forecast & Farming Advisory (MP, Chhattisgarh, Rajasthan, Maharashtra)",
+      "title_hi": "मध्य भारत मौसम पूर्वानुमान (मध्यप्रदेश, छत्तीसगढ़, राजस्थान, महाराष्ट्र)",
+      "source": "IMD (India Meteorological Department) – Regional Centre, Nagpur",
+      "content": "Central India Weather Outlook (Kharif Season – June–September): Monsoon onset: Central India receives 85–105 cm annual rainfall, mostly June–September. Temperature: 30–42°C (summer), 20–35°C (Kharif season). Farming Advisory: (1) June 1st week: Sow Cotton and Soybean after first monsoon shower (100–150 mm). (2) July–August: Optimal growth period for Soybean; apply first split dose of fertilizer at 3-leaf stage. (3) October: Harvest Soybean when 85% pods turn yellow; thresh within 3–4 days to prevent shattering. (4) Drought-prone areas (Bundelkhand, Vidarbha): Use dryland farming techniques; sow short-duration drought-tolerant varieties (JW 17 Wheat, Phule Vasudha Soybean). Warning: El Niño years bring below-normal monsoon – prepare alternate crop planning with drought-tolerant millets.",
+      "content_hi": "मध्य भारत मौसम पूर्वानुमान (खरीफ मौसम): मानसून आगमन: मध्य भारत को 85-105 सेमी वार्षिक वर्षा मिलती है। कृषि सलाह: (1) जून पहले सप्ताह: पहली मानसून बौछार के बाद कपास और सोयाबीन बोएं। (3) अक्टूबर: जब 85% फलियां पीली हों, सोयाबीन की कटाई करें।",
+      "keywords": ["weather", "central india", "monsoon", "MP", "Maharashtra", "soybean", "cotton", "मौसम", "मध्यभारत", "मानसून"],
+      "tags": ["weather_forecast", "central_india", "kharif_season"]
+    },
+    {
+      "id": "WF-003",
+      "pillar": "weather_forecast",
+      "region": "south_india",
+      "title": "South India Weather Forecast & Farming Advisory (Karnataka, TN, AP, Telangana, Kerala)",
+      "title_hi": "दक्षिण भारत मौसम पूर्वानुमान (कर्नाटक, तमिलनाडु, आंध्रप्रदेश)",
+      "source": "IMD (India Meteorological Department) – Regional Centre, Chennai",
+      "content": "South India Weather Outlook: Two monsoon seasons: (1) Southwest Monsoon (June–September) and (2) Northeast Monsoon (October–December) affecting Tamil Nadu, Andhra Pradesh coast. Annual Rainfall: 600–4500 mm (varies widely). Temperature: 25–38°C. Farming Advisory: (1) Paddy cultivation in two seasons – Kharif (Samba/Kuruvai) and Rabi (Thaladi). (2) Banana and Coconut in Kerala and TN – apply potassium fertilizer before flowering. (3) Sugarcane in Karnataka and TN – plant in September–October after NE Monsoon ensures adequate soil moisture. (4) Coffee and Cardamom in hill regions – maintain shade and moisture during dry spells. Warning: Cyclone alerts in October–December for coastal AP and TN – secure crops and farm structures.",
+      "content_hi": "दक्षिण भारत मौसम पूर्वानुमान: दो मानसून मौसम: (1) दक्षिण-पश्चिम मानसून (जून-सितंबर) और (2) उत्तर-पूर्व मानसून (अक्टूबर-दिसंबर)। कृषि सलाह: धान की खेती दो मौसमों में, केले और नारियल में पोटेशियम उर्वरक डालें।",
+      "keywords": ["weather", "south india", "monsoon", "cyclone", "Karnataka", "Tamil Nadu", "Kerala", "मौसम", "दक्षिण भारत"],
+      "tags": ["weather_forecast", "south_india", "both_monsoons"]
+    },
+    {
+      "id": "WF-004",
+      "pillar": "weather_forecast",
+      "region": "general",
+      "title": "General Weather Advisory & Soil Moisture Management for Sowing",
+      "title_hi": "बुवाई के लिए सामान्य मौसम सलाह और मृदा नमी प्रबंधन",
+      "source": "IMD + ICAR Joint Advisory – Agro-Met Field Unit",
+      "content": "Pre-Sowing Weather Checklist for farmers: (1) Check IMD 5-day forecast on Meghdoot app or Kisan Call Centre (1800-180-1551) before sowing. (2) Soil moisture adequacy: Optimal sowing moisture is 70–80% Field Capacity (FC). Test: grab a handful of soil – if it forms a ball and doesn't crumble, moisture is adequate. (3) Temperature requirements: Wheat: 20–22°C soil temp; Cotton: >25°C soil temp; Paddy nursery: 25–30°C. (4) Rainfall forecast integration: If >25 mm rain is expected within 3 days, delay basal fertilizer application. (5) Avoid sowing during fog/cloud cover – affects seed germination. Current Advisory: Access free agromet forecasts at mausam.imd.gov.in or Kisan Suvidha mobile app. Pre-harvest advisory is provided 3 days in advance.",
+      "content_hi": "बुवाई पूर्व मौसम चेकलिस्ट: (1) बुवाई से पहले मेघदूत ऐप या किसान कॉल सेंटर (1800-180-1551) पर IMD 5-दिन का पूर्वानुमान देखें। (2) मिट्टी की नमी: इष्टतम बुवाई नमी 70-80% फील्ड क्षमता। (3) तापमान की आवश्यकताएं: गेहूं: 20-22°C; कपास: >25°C।",
+      "keywords": ["weather", "soil", "sowing", "moisture", "temperature", "IMD", "forecast", "मौसम", "मिट्टी", "बुवाई", "नमी", "तापमान", "weather advice"],
+      "tags": ["weather_forecast", "soil_moisture", "pre_sowing"]
+    },
+
+    {
+      "id": "MR-001",
+      "pillar": "mandi_rates",
+      "commodity": "tomato",
+      "title": "Daily Mandi Rate – Tomato (Tamatar) | e-NAM Price Report",
+      "title_hi": "दैनिक मंडी भाव – टमाटर | e-NAM मूल्य रिपोर्ट",
+      "source": "e-NAM (National Agriculture Market) – Ministry of Agriculture & Farmers Welfare",
+      "content": "Tomato Mandi Rates (Latest Available Data): Mumbai APMC: ₹1,200–1,800/quintal; Delhi Azadpur Mandi: ₹800–1,400/quintal; Nashik (Major supply hub): ₹600–1,000/quintal; Bengaluru KR Market: ₹1,000–1,600/quintal; Chennai Koyambedu: ₹900–1,300/quintal. Price trend: Tomato prices surge in May–June and October–November due to supply disruptions from heat stress and monsoon. Storage advisory: Tomatoes cannot be stored for long; sell within 3–5 days of harvest. Price improvement tip: Grading and sorting tomatoes into A, B, C grades can increase price realisation by 20–30%. Government scheme: e-NAM portal (enam.gov.in) allows farmers to bid from any mandis across states.",
+      "content_hi": "टमाटर मंडी भाव (नवीनतम उपलब्ध डेटा): मुंबई APMC: ₹1,200-1,800/क्विंटल; दिल्ली आजादपुर मंडी: ₹800-1,400/क्विंटल; नासिक: ₹600-1,000/क्विंटल। कीमत में वृद्धि टिप: टमाटर को A, B, C ग्रेड में छांटने से 20-30% अधिक कीमत मिल सकती है।",
+      "keywords": ["mandi", "price", "tomato", "tamatar", "rate", "market", "e-NAM", "टमाटर", "मंडी भाव", "कीमत", "बाजार", "मंडी", "today"],
+      "tags": ["mandi_rates", "tomato", "daily_price"]
+    },
+    {
+      "id": "MR-002",
+      "pillar": "mandi_rates",
+      "commodity": "wheat",
+      "title": "Daily Mandi Rate – Wheat (Gehun) | e-NAM + MSP Report",
+      "title_hi": "दैनिक मंडी भाव – गेहूं | e-NAM + MSP रिपोर्ट",
+      "source": "e-NAM + Commission for Agricultural Costs and Prices (CACP)",
+      "content": "Wheat Mandi Rates & MSP: Minimum Support Price (MSP) 2023-24: ₹2,275/quintal (Government assured price). Market rates: Ludhiana Grain Market: ₹2,300–2,450/quintal; Hapur Grain Market (UP): ₹2,250–2,350/quintal; Indore Wheat Market: ₹2,280–2,400/quintal; Kota (Rajasthan): ₹2,260–2,380/quintal. FCI procurement: Wheat is procured by FCI (Food Corporation of India) at MSP from April onwards in Punjab, Haryana, UP. Advisory: Sell wheat to government procurement centres at MSP if market rates are lower. Clean and dry wheat to <12% moisture before selling to get full MSP. Register on enam.gov.in for online bidding.",
+      "content_hi": "गेहूं मंडी भाव और MSP: न्यूनतम समर्थन मूल्य (MSP) 2023-24: ₹2,275/क्विंटल। बाजार दरें: लुधियाना: ₹2,300-2,450/क्विंटल; हापुड़ (UP): ₹2,250-2,350/क्विंटल। FCI अप्रैल से पंजाब, हरियाणा, उत्तर प्रदेश में MSP पर गेहूं की खरीद करती है।",
+      "keywords": ["mandi", "price", "wheat", "gehun", "MSP", "market", "rate", "गेहूं", "मंडी भाव", "MSP", "कीमत"],
+      "tags": ["mandi_rates", "wheat", "MSP"]
+    },
+    {
+      "id": "MR-003",
+      "pillar": "mandi_rates",
+      "commodity": "paddy",
+      "title": "Daily Mandi Rate – Paddy (Dhan / Chawal) | e-NAM Report",
+      "title_hi": "दैनिक मंडी भाव – धान | e-NAM रिपोर्ट",
+      "source": "e-NAM (National Agriculture Market)",
+      "content": "Paddy Mandi Rates & MSP: Minimum Support Price (MSP) 2023-24: Common variety: ₹2,183/quintal; Grade A: ₹2,203/quintal. Market rates: Amritsar Grain Market: ₹2,200–2,300/quintal; Patna Rice Market: ₹2,150–2,250/quintal; Vijayawada: ₹2,180–2,280/quintal; Hyderabad: ₹2,160–2,260/quintal. Basmati (Premium): ₹3,500–5,500/quintal in Delhi and Karnal. Advisory: Basmati fetches significantly higher prices – consider Pusa Basmati 1121 variety for premium market access. Dry paddy to <14% moisture before selling. State govt. procurement at MSP through PACs (Primary Agricultural Credit Societies).",
+      "content_hi": "धान मंडी भाव और MSP: न्यूनतम समर्थन मूल्य (MSP) 2023-24: सामान्य: ₹2,183/क्विंटल; ग्रेड A: ₹2,203/क्विंटल। बासमती (प्रीमियम): ₹3,500-5,500/क्विंटल। बिक्री से पहले धान को <14% नमी तक सुखाएं।",
+      "keywords": ["mandi", "price", "paddy", "rice", "dhan", "chawal", "MSP", "basmati", "धान", "मंडी भाव", "चावल", "कीमत"],
+      "tags": ["mandi_rates", "paddy", "rice", "MSP"]
+    },
+    {
+      "id": "MR-004",
+      "pillar": "mandi_rates",
+      "commodity": "onion",
+      "title": "Daily Mandi Rate – Onion (Pyaz) | e-NAM Report",
+      "title_hi": "दैनिक मंडी भाव – प्याज | e-NAM रिपोर्ट",
+      "source": "e-NAM (National Agriculture Market) + NAFED",
+      "content": "Onion Mandi Rates: Nashik (Lasalgaon) – Asia's largest onion market: ₹800–2,500/quintal (highly volatile). Delhi Azadpur: ₹1,000–3,000/quintal. Bengaluru: ₹900–2,200/quintal. Onion Price Volatility: Onion prices are highly seasonal – peak prices in Oct–Dec due to post-Kharif supply gap; lowest during March–April after Rabi harvest. Government intervention: NAFED procures onions at buffer stock to stabilise prices. Export ban may be imposed when prices exceed ₹2,500/quintal. Storage advisory: Properly cured onions can be stored for 4–6 months in well-ventilated cold storage, significantly improving income. Grading improves price: Extra Large >60mm: +30–40% premium over medium grade.",
+      "content_hi": "प्याज मंडी भाव: नासिक (लासलगाव) – एशिया का सबसे बड़ा प्याज बाजार: ₹800-2,500/क्विंटल। दिल्ली आजादपुर: ₹1,000-3,000/क्विंटल। भंडारण सलाह: अच्छी तरह से ठीक किए गए प्याज को 4-6 महीने तक भंडारित किया जा सकता है।",
+      "keywords": ["mandi", "price", "onion", "pyaz", "rate", "Nashik", "market", "प्याज", "मंडी भाव", "कीमत", "बाजार"],
+      "tags": ["mandi_rates", "onion", "daily_price"]
+    },
+    {
+      "id": "MR-005",
+      "pillar": "mandi_rates",
+      "commodity": "potato",
+      "title": "Daily Mandi Rate – Potato (Aloo) | e-NAM Report",
+      "title_hi": "दैनिक मंडी भाव – आलू | e-NAM रिपोर्ट",
+      "source": "e-NAM (National Agriculture Market)",
+      "content": "Potato Mandi Rates: Agra (UP) – Major cold storage hub: ₹700–1,200/quintal; Delhi Azadpur: ₹800–1,400/quintal; Kolkata Kolay Market: ₹600–1,000/quintal; Indore: ₹750–1,100/quintal. Seasonal Price Pattern: Potato prices are lowest in February–March after main harvest and highest in September–October (pre-harvest). Cold storage: Over 70% of potato production in UP goes into cold storage – stored potato can fetch 2–3x higher prices when sold September–November. Variety-wise prices: Chipsona (processing variety) commands premium ₹1,000–1,500/quintal from Frito-Lay, ITC. MSP: Potato does not have MSP; market-driven prices. Advisory: Register with APMC for direct mandi access without commission agents.",
+      "content_hi": "आलू मंडी भाव: आगरा (UP): ₹700-1,200/क्विंटल; दिल्ली: ₹800-1,400/क्विंटल। कोल्ड स्टोरेज: उत्तर प्रदेश में 70% से अधिक आलू उत्पादन कोल्ड स्टोरेज में जाता है। सितंबर-नवंबर में बेचा गया संग्रहीत आलू 2-3 गुना अधिक कीमत दे सकता है।",
+      "keywords": ["mandi", "price", "potato", "aloo", "rate", "market", "cold storage", "आलू", "मंडी भाव", "कीमत"],
+      "tags": ["mandi_rates", "potato", "daily_price", "cold_storage"]
+    },
+    {
+      "id": "MR-006",
+      "pillar": "mandi_rates",
+      "commodity": "mustard",
+      "title": "Daily Mandi Rate – Mustard (Sarson) | e-NAM + MSP Report",
+      "title_hi": "दैनिक मंडी भाव – सरसों | e-NAM + MSP रिपोर्ट",
+      "source": "e-NAM + Commission for Agricultural Costs and Prices (CACP)",
+      "content": "Mustard Mandi Rates & MSP: Minimum Support Price (MSP) 2023-24: ₹5,650/quintal. Market rates: Jaipur Mustard Market: ₹5,400–6,200/quintal; Kota (Rajasthan): ₹5,300–5,800/quintal; Alwar: ₹5,500–6,000/quintal; Bharatpur: ₹5,200–5,700/quintal. Rajasthan accounts for 46% of India's mustard production. Price drivers: Mustard oil demand surges in winter season; edible oil import policy affects domestic mustard prices. Advisory: NAFED procures mustard at MSP – register with State Agriculture Marketing Board. Processing: Mustard oil extraction at village-level ghanee fetches 2x income compared to raw seed sale. High oleic varieties (PM 28, RH 1424) command 10–15% premium for oil processing.",
+      "content_hi": "सरसों मंडी भाव और MSP: न्यूनतम समर्थन मूल्य (MSP) 2023-24: ₹5,650/क्विंटल। बाजार दरें: जयपुर: ₹5,400-6,200/क्विंटल। राजस्थान भारत के सरसों उत्पादन का 46% हिस्सा है। NAFED MSP पर सरसों खरीदती है।",
+      "keywords": ["mandi", "price", "mustard", "sarson", "MSP", "Rajasthan", "rate", "सरसों", "मंडी भाव", "MSP", "कीमत"],
+      "tags": ["mandi_rates", "mustard", "MSP", "oilseed"]
+    }
+  ]
+}

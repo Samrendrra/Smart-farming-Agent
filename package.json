@@ -1,0 +1,25 @@
+{
+  "name": "krishimitra-ai-smart-farming-agent",
+  "version": "1.0.0",
+  "description": "AICTE-IBM SkillsBuild Problem Statement #9 – AI Agent for Smart Farming Advice (RAG Based) powered by IBM Cloud Lite & IBM Granite via watsonx.ai",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "ibm",
+    "watsonx",
+    "granite",
+    "rag",
+    "smart-farming",
+    "agriculture",
+    "aicte-skillsbuild"
+  ],
+  "author": "AICTE-IBM SkillsBuild Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3"
+  }
+}
